@@ -1,0 +1,99 @@
+.time-line-item {
+  position: relative;
+  background-color: var(--section-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px 13.2px !important;
+}
+
+.time-line-item:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.time-dot {
+  width: 40px;
+  height: 40px;
+  color: var(--mainFont-Color) !important;
+  box-shadow: none !important;
+  background-color: #f1d99e !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-service__icon {
+  position: absolute;
+  background-color: #fcf5e4;
+  color: var(--mainFont-Color);
+  top: 50%;
+  inset-inline-start: -25px;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odd-icon {
+  right: calc(100% - 25px) !important;
+}
+
+.time-desc {
+  color: var(--bodyFont-color);
+  font-size: 15px;
+}
+
+.odd-item {
+  padding-left: 20px !important;
+}
+
+.odd-item :where(p, h6) {
+  width: 100% !important;
+}
+
+.even-item :where(p, h6) {
+  text-align: right;
+  padding-right: 16px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .time-line-item {
+    margin-top: 15px !important;
+    text-align: right !important;
+    padding: 20px !important;
+  }
+
+  .order-service__icon {
+    right: -25px !important;
+    transform: translateY(-50%);
+  }
+
+  .even-icon {
+    right: calc(100% - 25px) !important;
+  }
+
+  .time-line {
+    overflow: hidden;
+  }
+
+  .MuiTimeline-root {
+    padding: 0 !important;
+  }
+
+  .MuiTimelineItem-root {
+    gap: 10px;
+  }
+
+  .order-service__icon-mobile {
+    background-color: #fcf5e4;
+    color: var(--mainFont-Color);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,70 @@
+.join-us {
+  background-color: var(--section-bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.join-us__content {
+  padding-right: 30px;
+}
+
+.join-us__img {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 2;
+}
+
+.join-us__img img {
+  border-radius: 20px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.join-us__img::before {
+  position: absolute;
+  content: url("../../assets/icons/long-arrow.svg");
+  display: block;
+  position: absolute;
+  top: 55%;
+  right: -38px;
+  z-index: 50;
+}
+
+.join-us__content-title {
+  margin-top: 20px !important;
+}
+
+.join-us__content-body {
+  margin: 20px 0px !important;
+  color: var(--bodyFont-color);
+}
+
+@media screen and (max-width: 768px) {
+  .join-us {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .join-us__img {
+    justify-content: center;
+  }
+
+  .join-us__img::before {
+    content: "";
+  }
+
+  .join-us__content-body {
+    margin: 10px 0px !important;
+  }
+
+  .join-us__content {
+    padding-right: 10px;
+  }
+}

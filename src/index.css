@@ -1,0 +1,52 @@
+:root {
+  --main-color: #3457d5;
+  --accent-color: #eebf48;
+  --element-color: #f7dfa3;
+  --body-bg: #f2f2f2;
+  --section-bg: #f9f9f9;
+  --card-bg: #fefbf4;
+  --orange-bg: #e5e9f2;
+  --blue-bg: #f1f3fc;
+  --border: #d1d9e0;
+  --mainFont-color: #060913;
+  --bodyFont-color: #959595;
+  --icon-color: #959595;
+  --placeholder-color: #c4c4c4;
+  /* --icon-color: #ccd2e3; */
+}
+
+@font-face {
+  font-family: "Al-Jazeera-Arabic-Bold";
+  src: url("./fonts/Al-Jazeera-Arabic-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Al-Jazeera-Arabic-Light";
+  src: url("./fonts/Al-Jazeera-Arabic-Light.ttf");
+}
+
+@font-face {
+  font-family: "Al-Jazeera-Arabic-Regular";
+  src: url("./fonts/Al-Jazeera-Arabic-Regular.ttf");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-family: "Al-Jazeera-Arabic-Regular";
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  background-color: var(--body-bg);
+}

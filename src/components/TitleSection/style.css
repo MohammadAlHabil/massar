@@ -1,0 +1,46 @@
+.title-section {
+  position: relative;
+  height: 45px;
+}
+
+.title-section::after {
+  position: absolute;
+  top: 21px;
+  left: 50%;
+  content: "";
+  transform: translateX(-50%);
+  width: 100px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+}
+
+.title-section__title {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  text-align: right;
+  transform: translateX(-50%);
+  font-family: "Al-Jazeera-Arabic-Bold" !important;
+  z-index: 1;
+}
+
+.right.title-section::after {
+  position: absolute;
+  content: "";
+  top: 21px;
+  right: -50px;
+  width: 100px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: var(--accent-color);
+}
+
+.right.title-section__title {
+  position: absolute;
+  top: 0px;
+  right: -47%;
+  transform: translateX(-50%);
+  font-family: "Al-Jazeera-Arabic-Bold" !important;
+  z-index: 1;
+}

@@ -1,0 +1,93 @@
+.app-bar {
+  background-color: var(--body-bg) !important;
+  padding: 0 25px;
+}
+
+.container-tool-bar,
+.tool-bar {
+  background: transparent !important;
+}
+
+.small.app-bar,
+.small .container-tool-bar,
+.small .tool-bar {
+  height: 70px;
+}
+
+.small.app-bar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.app-bar {
+  box-shadow: none !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1002;
+}
+
+.btn-join-us {
+  color: var(--mainFont-color) !important;
+}
+
+.btn-whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: none !important;
+  border-radius: 100px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-whatsapp a {
+  color: #fff;
+}
+
+.btn-whatsapp::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to right, #eebf4850 0%, #eebf4895 10%);
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+}
+
+.btn-whatsapp:hover::before {
+  right: calc(100% + 10px);
+  transition: right 500ms;
+}
+
+.container-nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-nav-items button {
+  color: var(--mainFont-color) !important;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .app-bar {
+    padding: 0;
+  }
+
+  .nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+}

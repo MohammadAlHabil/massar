@@ -1,0 +1,57 @@
+.our-services {
+  margin-top: 20px;
+}
+
+.our-services__fieldset {
+  background-color: var(--section-bg);
+  border: 1px solid var(--border);
+  min-height: 420px;
+  border-radius: 20px;
+}
+
+.our-services__legend {
+  background-color: var(--section-bg);
+  border: 1px solid var(--border);
+  border-radius: 150px;
+  padding: 5px;
+  overflow: hidden;
+  /* height: 60px; */
+}
+
+.our-services
+  :where(.MuiTabs-root, .MuiTabs-flexContainer, .MuiTab-root, .MuiButtonBase-root, .MuiTabs-root
+    button, .MuiTouchRipple-root) {
+  /* display: inline-block; */
+  /* gap: 5px;
+  height: 50px !important; */
+}
+
+.our-services .MuiTab-root {
+  padding: 0 15px !important;
+}
+
+.our-services .Mui-selected {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+}
+
+.our-services .MuiTabs-indicator {
+  display: none;
+}
+
+.our-services__items {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services__tab {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .MuiTabPanel-root {
+    padding: 0 !important;
+  }
+}

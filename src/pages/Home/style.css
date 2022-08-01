@@ -1,0 +1,44 @@
+.top-arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1001;
+  color: #fff;
+  background-color: #3457d570;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 5px solid #3457d520;
+  cursor: pointer;
+}
+
+.home {
+  padding: 0 30px;
+}
+
+.margin__top-section {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+  .top-arrow {
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .home {
+    padding: 0 0px;
+  }
+
+  .margin__top-section {
+    margin-top: 50px;
+  }
+}
