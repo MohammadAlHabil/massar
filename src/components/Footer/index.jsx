@@ -13,8 +13,8 @@ export default function Footer() {
               <img src={logo} alt="logo" />
             </Box>
             <Typography variant="body1" component="span">
-              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-              سيلهي القارئ عن التركيز على الشكل.
+              نعمل في أرجاء المملكة في خدمة القطاعات التجارية والأفراد ورجال
+              الأعمال والمستثمرين
             </Typography>
             <Box className="footer__social">
               <Box className="footer__social-icons">

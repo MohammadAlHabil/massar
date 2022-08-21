@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function JoinUs() {
   return (
-    <Container maxWidth="xl">
+    <Container id="join-us" maxWidth="xl">
       <Box className="margin__top-section container-join-us">
         <Box className="join-us">
           <Box className="join-us__content">
@@ -17,7 +17,12 @@ export default function JoinUs() {
               نسعد بانضمامك لنا
             </Typography>
             <Button variant="contained" className="button btn-whatsapp">
-              إنضم لنا
+              <a
+                rel="noreferrer"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdDsxOLOD1Y_aFae2Hqpy8zhuuRiLV0RPwWBYPl8Prb_io7Mw/viewform?usp=sf_link"
+                target="_blank">
+                انضم لنا
+              </a>
             </Button>
           </Box>
           <Box className="join-us__img">

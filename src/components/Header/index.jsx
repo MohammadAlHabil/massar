@@ -8,7 +8,7 @@ import "./style.css";
 export default function Header() {
   return (
     <>
-      <Container maxWidth="xl">
+      <Container id="home" maxWidth="xl">
         <Box className="container-header">
           <Box className="container-header-content" sx={{ mt: "60px" }}>
             <Typography className="header-title" variant="h2" gutterBottom>
@@ -16,7 +16,7 @@ export default function Header() {
                 options={{
                   strings: [
                     "أفضل الخدمات والاستشارات نقدمها لك الأن",
-                    "حلول تقنية لتسهيل الاستشارات",
+                    // "حلول تقنية لتسهيل الاستشارات",
                   ],
                   autoStart: true,
                   deleteSpeed: 0.01,
@@ -32,9 +32,9 @@ export default function Header() {
               gutterBottom
               component="div"
               sx={{ color: "#747474" }}>
-              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
-              سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
-              في الصفحة التي يقرأها.
+              يساعدك فريقنا المتخصص على اتخاذ القرارات الأفضل والأسرع، القابلة
+              للتطبيق والقياس بنجاح من خلال تقديم كافة الخدمات الإدارية والمالية
+              والقانونية بسهولة ويسر
             </Typography>
             <Button
               startIcon={<WhatsappOutlined />}

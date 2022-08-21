@@ -9,6 +9,7 @@ import {
   Contact,
   Footer,
   OurAddress,
+  Banner,
 } from "../../components";
 import { Box } from "../../mui-modules.js";
 import { NorthOutlined } from "../../mui-icons.js";
@@ -44,6 +45,7 @@ export default function Home() {
         <Header />
         <OurServices />
         <OrderService />
+        <Banner />
         <WhoUs />
         <OurTeam />
         <JoinUs />

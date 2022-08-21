@@ -11,7 +11,6 @@ import "swiper/css/bundle";
 import "swiper/css";
 import "swiper/css/pagination";
 import { teams } from "../../utils";
-import { Email, LinkedIn, Twitter, Facebook } from "../../mui-icons";
 import "./style.css";
 
 export default function OurTeam() {
@@ -57,12 +56,6 @@ export default function OurTeam() {
                       <Typography component={"span"} className="job-title">
                         {jobTitle}
                       </Typography>
-                      <Box className="social-icons">
-                        <Email />
-                        <LinkedIn />
-                        <Twitter />
-                        <Facebook />
-                      </Box>
                     </Box>
                   </Box>
                 </SwiperSlide>
