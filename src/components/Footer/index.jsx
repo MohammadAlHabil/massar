@@ -10,7 +10,7 @@ export default function Footer() {
         <Box className="footer">
           <Box className="footer__content">
             <Box className="footer__logo">
-              <img src={logo} alt="logo" />
+              <img src={logo} alt="logo" className="logo" />
             </Box>
             <Typography variant="body1" component="span">
               نعمل في أرجاء المملكة في خدمة القطاعات التجارية والأفراد ورجال

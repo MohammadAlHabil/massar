@@ -31,7 +31,7 @@ const pages = [
     to: "about-us",
   },
   {
-    label: "لشركائنا",
+    label: "شركاؤنا",
     to: "join-us",
   },
   {
@@ -70,10 +70,11 @@ export default function Nav() {
     <AppBar position="static" className={`app-bar ${small ? "small" : ""}`}>
       <Container maxWidth="xl" className="container-tool-bar">
         <Toolbar disableGutters className="tool-bar">
-          <Link to="/">
-            <img src={logo} alt="logo" className="logo" />
-          </Link>
-
+          <Box className="nav__logo">
+            <Link to="/">
+              <img src={logo} alt="logo" className="logo" />
+            </Link>
+          </Box>
           <Box
             className="container-nav-items"
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
@@ -93,7 +94,7 @@ export default function Nav() {
             <Button className="btn-join-us" sx={{ my: 2 }}>
               <a
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdDsxOLOD1Y_aFae2Hqpy8zhuuRiLV0RPwWBYPl8Prb_io7Mw/viewform?usp=sf_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfE72ww4PEROWWpPtI442dUADXvNQznxR4AUPV_pE02eqM-yA/viewform?usp=sf_link"
                 target="_blank">
                 انضم لنا
               </a>

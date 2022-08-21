@@ -28,7 +28,7 @@ export default function Contact() {
         <Box data-aos="fade-left" className="contact__content">
           <TitleSection style="right" title="ابق على تواصل معنا" />
           <form
-            action="https://formsubmit.co/mohammadalhabil1999@gmail.com"
+            action="https://formsubmit.co/masarala3mal@gmail.com"
             method="POST"
             className="form">
             <Box className="text-field">
@@ -59,7 +59,10 @@ export default function Contact() {
             </Box>
             <input type="hidden" name="_subject" value="مسار الاعمال"></input>
             <input type="hidden" name="_captcha" value="false"></input>
-            <input type="hidden" name="_next" value={``}></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://massarbusiness.netlify.app/"></input>
             <Typography variant="body1" component="span">
               سيتم الرد على رسالتك عبر ايميلك بعد مراجعتها من الدعم الفني
             </Typography>
