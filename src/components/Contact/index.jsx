@@ -23,7 +23,7 @@ const TextWithIcon = ({ info }) => {
 
 export default function Contact() {
   return (
-    <Container maxWidth="xl">
+    <Container id="contact" maxWidth="xl">
       <Box className="margin__top-section container-contact">
         <Box data-aos="fade-left" className="contact__content">
           <TitleSection style="right" title="ابق على تواصل معنا" />

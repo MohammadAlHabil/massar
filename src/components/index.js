@@ -8,6 +8,7 @@ import JoinUs from "./JoinUs";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import OurAddress from "./OurAddress";
+import Banner from "./Banner";
 
 export {
   Nav,
@@ -20,4 +21,5 @@ export {
   Contact,
   Footer,
   OurAddress,
+  Banner,
 };

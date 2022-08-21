@@ -43,7 +43,26 @@
 .our-services__items {
   display: flex;
   justify-content: center;
+  flex-wrap: nowrap;
   gap: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+  .our-services__items {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px !important;
+  }
+
+  .our-services .MuiTabPanel-root {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .our-services .MuiTabPanel-root {
+    padding: 20px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

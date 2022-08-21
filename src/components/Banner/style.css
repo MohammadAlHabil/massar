@@ -1,0 +1,9 @@
+.container-banner {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.container-banner img {
+  max-width: 100%;
+  object-fit: "cover";
+}
