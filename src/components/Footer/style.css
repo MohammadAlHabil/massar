@@ -28,3 +28,13 @@
 .footer input {
   width: 270px;
 }
+
+.footer__logo {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.footer__logo img {
+  max-width: 100%;
+}

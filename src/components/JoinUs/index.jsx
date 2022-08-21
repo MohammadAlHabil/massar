@@ -19,7 +19,7 @@ export default function JoinUs() {
             <Button variant="contained" className="button btn-whatsapp">
               <a
                 rel="noreferrer"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdDsxOLOD1Y_aFae2Hqpy8zhuuRiLV0RPwWBYPl8Prb_io7Mw/viewform?usp=sf_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfE72ww4PEROWWpPtI442dUADXvNQznxR4AUPV_pE02eqM-yA/viewform?usp=sf_link"
                 target="_blank">
                 انضم لنا
               </a>
