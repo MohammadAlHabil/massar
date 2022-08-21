@@ -45,10 +45,10 @@ export default function Home() {
         <Header />
         <OurServices />
         <OrderService />
-        <Banner />
         <WhoUs />
         <OurTeam />
         <JoinUs />
+        <Banner />
         <Contact />
         <OurAddress />
         <Footer />
