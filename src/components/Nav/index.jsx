@@ -106,7 +106,7 @@ export default function Nav() {
               sx={{ my: 2 }}>
               <a
                 rel="noreferrer"
-                href="https://api.whatsapp.com/send?phone=0503327164"
+                href="https://api.whatsapp.com/send?phone=9660503327164"
                 target="_blank">
                 طلب خدمة
               </a>
