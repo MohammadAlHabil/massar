@@ -41,7 +41,7 @@ export default function Header() {
               variant="contained"
               className="btn-whatsapp"
               sx={{ my: 2 }}>
-              <a href="https://api.whatsapp.com/send?phone=0503327164">
+              <a href="https://api.whatsapp.com/send?phone=9660503327164">
                 طلب خدمة
               </a>
             </Button>
